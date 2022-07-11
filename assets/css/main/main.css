@@ -40,6 +40,10 @@
   height: 100%;
   border-radius: 30px;
   border: 1px solid var(--desaturated-red);
+  padding-left: 2rem;
+  outline: none;
+  color: var(--dark-grayish-red);
+  font-family: var(--font-family);
 }
 
 .info__input-arrow {
@@ -55,13 +59,13 @@
   right: 0;
   text-align: center;
   width: 4rem;
+  line-height: 2;
 }
 
 input::placeholder {
   color: var(--desaturated-red);
   font-family: var(--font-family);
   font-size: 0.9rem;
-  padding-left: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
