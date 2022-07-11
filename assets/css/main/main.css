@@ -63,3 +63,27 @@ input::placeholder {
   font-size: 0.9rem;
   padding-left: 1.5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .info {
+    padding: 0 0 2rem;
+  }
+
+  .info__titulo {
+    text-align: left;
+  }
+
+  .info__paragrafo {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .info__titulo {
+    font-size: 4.1rem;
+  }
+
+  .info__input-arrow {
+    width: 5.5rem;
+  }
+}
