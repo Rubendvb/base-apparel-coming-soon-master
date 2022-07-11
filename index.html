@@ -24,19 +24,44 @@
     />
 
     <link rel="stylesheet" href="assets/css/base/index.css" />
+    <link rel="stylesheet" href="assets/css/body/body.css" />
   </head>
   <body>
-    <div>
-      <header></header>
-      <main>
-        <div>
-          <h1>We're coming soon</h1>
-          <p>
+    <div class="container">
+      <header class="header">
+        <img
+          class="header__img"
+          src="assets/images/logo.svg"
+          alt="Logo Base Apparel"
+        />
+      </header>
+      <div class="imagens">
+        <img
+          class="imagens__img-mobile"
+          src="assets/images/hero-mobile.jpg"
+          alt="Mulher olhando para câmera"
+        />
+        <img
+          class="imagens__img-desktop"
+          src="assets/images/hero-desktop.jpg"
+          alt="Mulher olhando para câmera"
+        />
+      </div>
+
+      <main class="main">
+        <div class="info">
+          <h1 class="info__titulo">We're coming soon</h1>
+          <p class="info__paragrafo">
             Hello fellow shoppers! We're currently building our new fashion
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <input type="email" placeholder="Email Address" required />
+          <input
+            class="info__input"
+            type="email"
+            placeholder="Email Address"
+            required
+          />
         </div>
       </main>
 
@@ -49,7 +74,5 @@
         </p>
       </footer>
     </div>
-
-    <div></div>
   </body>
 </html>
