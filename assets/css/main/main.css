@@ -65,7 +65,7 @@
   display: none;
   position: absolute;
   top: 14px;
-  left: 215px;
+  left: calc(50px + 1vw);
 }
 
 .info__input-span {
