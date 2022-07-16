@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://base-apparel-coming-soon-master-oujafcvrh-rubendvb.vercel.app/" target="_blank">
+    <a href="https://base-apparel-coming-soon-master-oujafcvrh-rubendvb.vercel.app" target="_blank">
       Ingresar
     </a>
   </h3>
