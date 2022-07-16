@@ -59,7 +59,23 @@
   right: 0;
   text-align: center;
   width: 4rem;
-  line-height: 2;
+}
+
+.info__input-erro {
+  display: none;
+  position: absolute;
+  top: 14px;
+  left: 215px;
+}
+
+.info__input-span {
+  display: none;
+  position: absolute;
+  font-size: 0.6rem;
+  color: var(--linear-four);
+  bottom: -20px;
+  left: 35px;
+  font-weight: 600;
 }
 
 input::placeholder {
@@ -69,6 +85,10 @@ input::placeholder {
 }
 
 @media screen and (min-width: 768px) {
+  .width-content {
+    width: 396px;
+  }
+
   .info {
     padding: 0 0 2rem;
   }
@@ -80,6 +100,10 @@ input::placeholder {
   .info__paragrafo {
     text-align: left;
   }
+
+  .info__input-erro {
+    left: 295px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -89,5 +113,15 @@ input::placeholder {
 
   .info__input-arrow {
     width: 5.5rem;
+  }
+
+  .info__input-arrow:hover {
+    background: var(--linear-three);
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .info__input-erro {
+    left: 270px;
   }
 }
