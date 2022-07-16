@@ -66,6 +66,9 @@
 
   .containerHeader {
     padding: 3rem 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .header__img {
